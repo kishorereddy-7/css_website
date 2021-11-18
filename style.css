@@ -1,0 +1,205 @@
+body {
+    text-align: center;
+}
+
+.intro {
+    border: 100px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    background: #f0fafa;
+    border-image: url('https://pixy.org/src/431/4315096.jpeg') 10%;
+}
+
+
+.intro h1{
+    color: #301830;
+    font-size: 50px;
+    margin-left: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid greenyellow;
+    animation: typing 7s steps(17) infinite;
+    animation: inno 7s steps(17) infinite;
+}
+
+@keyframes inno {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 16ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+.intro h2 {
+    color: #0a003b;
+    margin: auto;
+    text-align: left;
+    font-size: 30px;
+}
+
+.summary {
+    text-align: center;
+    font-size: 20px;
+    background: #7ff5f3;
+    border-radius: 50px;
+    color: #bf4362;
+    font-weight: 600;
+}
+.preamble h3 {
+    font-size: 17px;
+    padding: 100px 30px;
+    background-color: #e63946;
+    border-radius: 20px;
+    color: #fae607;
+}
+
+.preamble {
+    display: flex;
+    margin: 80px 0px;
+}
+
+.preamble p {
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+p {
+    transition: 1s;
+}
+
+p:hover {
+    transform: scale(1.2);
+}
+
+#one {
+    background-color: #457b9d;
+}
+
+#two {
+    background-color: #1d3557;
+}
+
+
+#three {
+    background-color: #f8e948;
+}
+
+#zen-supporting {
+    margin: 100px 0px;
+} 
+
+img {
+    height: 200px;
+}
+
+.explanation {
+    display: flex;
+}
+
+.explanation h3 {
+    padding: 100px 30px;
+    background-color: #e63946;
+    border-radius: 20px;
+    color: #fae607;
+    height: 34px;
+    width: 103px;
+}
+
+.explanation p {
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.participation {
+    display: flex;
+}
+
+.participation h3 {
+    padding: 100px 30px;
+    background-color: #e63946;
+    border-radius: 20px;
+    color: #fae607;
+}
+
+.participation p {
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.benefits {
+    display: flex;
+}
+
+.benefits p {
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.benefits h3 {
+    padding: 100px 30px;
+    background-color: #e63946;
+    border-radius: 20px;
+    color: #fae607;
+}
+
+.requirements {
+    display: flex;
+}
+
+.requirements h3 {
+    padding: 100px 30px;
+    background-color: #e63946;
+    border-radius: 20px;
+    color: #fae607;
+}
+
+.requirements p {
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+h3 {
+    height: 34px;
+    width: 103px;
+    font-size: 20px;
+    color: royalblue;
+}
+
+a {
+    color: yellowgreen;
+}
+
+a:hover {
+    color: red;
+}
+
+footer a{
+    padding: 10px 30px;
+}
+
+.sidebar {
+    text-align: center;
+    padding: 25px;
+}
+
+.sidebar a {
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+}
+
